@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Acessibilidade"
-date:   2015-08-07 23:56:45
+date:   2015-08-10 14:32:45
 description: hoje falo sobre acessibilidade em sites, sua importância, e por que eu devo me preocupar com isso..
 categories:
 - blog
