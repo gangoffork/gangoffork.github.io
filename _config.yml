@@ -1,46 +1,36 @@
 # Harmony Jekyll theme general configurations
 
-# Base URL
-baseurl: http://gangoffork.github.io
 
-# Site live URL
-url: http://gangoffork.github.io
+url: https://gangoffork.github.io
+baseurl: /
 
-# Localhost
-# url: http://127.0.0.1:4000
-
-# Harmony theme configuration. Please change accordingly.
 harmony:
   name: Gang of Fork
-  # Little description about your site
   description: Gang of Fork, bitch!
-  meta_description: Harmony is free responsive jekyll theme. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+  meta_description: We are the Gang of Fork!
+  basetheme: theme-base-01
+  authors:
+    bruno:
+      name: Bruno Lima
+    chico:
+      name: Francisco Marinho
+    deni:
+      name: Deni Cavalcanti
+    edson:
+      name: Edson Samuel Jr
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
-  # Profile links, leave blank to ignore
-  social:
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest:
   # Toggle disclaimer in footer
   show_disclaimer: true
 
 # Conversion / Build settings
 markdown:    kramdown
-highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink:   pretty
 
 exclude:
   - CNAME
@@ -53,5 +43,5 @@ exclude:
 
 # Sass conversion configs
 sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+  sass_dir: assets/css/_sass
+  style: :compressed
