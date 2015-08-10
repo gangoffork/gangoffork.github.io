@@ -643,6 +643,18 @@ span.post-date {
     @include font-size(16px);
   }
 }
+span.post-author {
+  font-style: italic;
+  letter-spacing: 2px;
+  @include font-size(12px);
+  overflow: hidden;
+  display: block;
+  padding: 1em 0 0;
+
+  @include MQ(M) {
+    @include font-size(16px);
+  }
+}
 
 /* --------------------------------
 
