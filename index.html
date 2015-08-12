@@ -12,12 +12,12 @@ layout: default
 				<span class="post-date">{{ post.date | date_to_string }}</span>
 				<p>{{ post.description }}</p>
 				<p>
-					<a href="{{ post.url }}" title="{{ post.title}}">Read More</a>
+					<a href="{{ post.url }}" title="{{ post.title}}">+ mais</a>
 				</p>
 			</div>
 		{% endfor %}
 	</div>
 	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/archive' }}">Archive</a></div>
+		<div class="column-full"><a href="{{ '/archive' }}">Todos os posts</a></div>
 	</div>
 </div>
