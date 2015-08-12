@@ -1,5 +1,5 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre
+permalink: /sobre.html
 ---

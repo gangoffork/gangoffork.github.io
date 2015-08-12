@@ -191,15 +191,28 @@ header.main-header, footer.main-footer {
 
 header.main-header {
   color: $base-00;
-  border-top: 5px $base-00 solid;
+  border-top: 5px $base-01 solid;
 
-  h1, h2 { text-align: center; color: inherit;}
+  h1{
+    text-align: center;
+    color: inherit;
+    a {
+      width: 124px;
+      height: 124px;
+      display: inline-block;
+      text-indent: -999em;
+      background: url(../img/gangoffork.svg) no-repeat;
+      background-size: cover;
+    }
+  }
+  h2 { text-align: center; color: inherit;}
   a {
     color: inherit;
     &:hover, &:active, &:focus {
       border-bottom-color: transparent;
     }
   }
+
 
   ul {
     width: 100%;
@@ -233,6 +246,8 @@ header.main-header {
   }
 }
 
+
+
 footer.main-footer {
   background-color: $base-00;
   color: $base-07;
@@ -245,6 +260,13 @@ footer.main-footer {
         @include column(.5);
         display: block;
       }
+    }
+  }
+
+  a {
+    color: $base-08b;
+    &:hover {
+      border-color: $base-08b;
     }
   }
 
