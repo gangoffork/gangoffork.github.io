@@ -197,12 +197,12 @@ header.main-header {
     text-align: center;
     color: inherit;
     a {
-      width: 124px;
-      height: 124px;
+      width: 224px;
+      height: 284px;
+      padding: 224px 0 0;
       display: inline-block;
-      text-indent: -999em;
-      background: url(../img/gangoffork.svg) no-repeat;
-      background-size: cover;
+      background: url(../img/logo.svg) no-repeat;
+      background-size: contain;
     }
   }
   h2 { text-align: center; color: inherit;}

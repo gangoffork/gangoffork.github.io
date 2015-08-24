@@ -2,20 +2,21 @@
 
 url: https://gangoffork.github.io
 
+title: Gang of Fork
+description: We are the Gang of Fork!
+
+authors:
+  bruno:
+    name: Bruno Lima
+  chico:
+    name: Francisco Marinho
+  deni:
+    name: Deni Cavalcanti
+  edson:
+    name: Edson Samuel Jr
+
 harmony:
-  name: Gang of Fork
-  description: Gang of Fork, bitch!
-  meta_description: We are the Gang of Fork!
   basetheme: theme-base-01
-  authors:
-    bruno:
-      name: Bruno Lima
-    chico:
-      name: Francisco Marinho
-    deni:
-      name: Deni Cavalcanti
-    edson:
-      name: Edson Samuel Jr
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-66157363-1
@@ -28,7 +29,7 @@ markdown:    kramdown
 highlighter: pygments
 
 # Permalinks
-permalink: /:categories/:year/:title.html
+permalink: /:categories/:year/:title
 
 exclude:
   - CNAME
