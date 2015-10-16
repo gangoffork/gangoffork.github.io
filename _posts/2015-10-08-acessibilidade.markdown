@@ -12,7 +12,7 @@ E ai Beleza? Hoje falamos sobre acessibilidade em sites, e sua importância.
 
 Acessibilidade é tornar algum lugar possível de acesso, acessibilidade na web é tornar o site possível de acesso. Com isso queremos dizer que um site assim como um lugar precisa de alguns elementos para que todas as pessoas tenham, e ou sejam capazes de acessar, independente de suas habilidades. 
 
-Quando falamos em acessibilidade na web, estamos falando em seguir certos padrões de desenvolvimento, que facilitam a compreensão do conteúdo. Tendo em mente os diversos graus de dificuldades dos usuários que vão desde o acesso a equipamentos ultrapassados e infra estrutura ruim, e da capacidades limitadas como uma baixa visão ou até mesmo a cegueira.
+Quando falamos em acessibilidade na web, estamos falando em seguir certos padrões de desenvolvimento, que facilitam a compreensão do conteúdo. Tendo em mente os diversos graus de dificuldades dos usuários que vão desde o acesso a equipamentos ultrapassados e infra estrutura ruim, e das capacidades limitadas como uma baixa visão ou até mesmo a cegueira.
 
 Nos acostumamos a fazer sites e não colocar acessibilidade, isso é um pena, porque dessa maneira estamos excluindo 285 milhões(segundo esse orgão foda aqui: [WHO][WHO]) de possíveis usuários, leitores, um público bem legal. Quando você olha para os beneficios de colocar acessibilidade em seu site, irá perceber que o custo é minimo, e estará contribuindo para a inclusão dessas pessoas na web, você passará a ser um agente transformador nesse contexto, e estará fazendo um trabalho relevante.
 
